@@ -86,5 +86,26 @@ const items = ["Cake","Sweets","Icings"];
 for (let i =0; i<items.length; i++){
     console.log(`items #${i+1}: ${items[i]}`);
 }
-console.log("Git hub add");
+/* console.log("Git hub add");
+console.log("branch update"); */
+
+let evenArray = [];
+for (let i=0; i <= 100; i +=2){
+    evenArray.push(i);
+}
+evenArray.unshift(10);
+evenArray.reverse();
+
+//for..of loop
+cars =["bence", "bugadi","Jaguer"];
+for(const car of cars){
+    console.log("car:", car);
+}
+
+//for each loop
+cars.forEach((car,index)=> {
+    console.log("inside for each");
+    console.log(`Car #${index + 1}: ${car}`);
+});
+cars.forEach((car) => console.log("Car:", car));
 
